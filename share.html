@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>查询页面</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- 左上角返回首页的三角形标记 -->
+    <div class="triangle">
+        <a href="1.html">返回首页</a>
+    </div>
+
+    <header>
+        <h1>查询页面</h1>
+        <nav>
+            <ul>
+                <li><a href="introduce.html">个人简介</a></li>
+                <li><a href="hobby.html">爱好</a></li>
+                <li><a href="share.html">分享</a></li>
+                <li><a href="message.html">留言</a></li>
+                <li><a href="link.html">友情链接</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search-section">
+        <h2>查询文章和图片/视频</h2>
+        <form id="search-form">
+            <label for="title">标题:</label>
+            <input type="text" id="title" name="title">
+            <label for="date">日期:</label>
+            <input type="date" id="date" name="date">
+            <button type="button" onclick="performSearch()">查询</button>
+        </form>
+        <div id="results">
+            <h3>查询结果:</h3>
+            <div id="article-results"></div>
+            <div id="media-results"></div>
+        </div>
+    </section>
+
+    <section id="latest-content-section">
+        <h2>最新文章和图片/视频</h2>
+        <div id="latest-content">
+            <!-- 最新内容将通过JavaScript动态加载 -->
+            <a href="http://xhslink.com/4OH5GK"><img src="/image/share1.jpg" class="latest-img"></a>
+            <img src="/image/share2.jpg" class="latest-img">
+        </div>
+    </section>
+
+    <footer>
+        <p>版权所有 &copy; 2024 LM</p>
+    </footer>
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

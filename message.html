@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+     <!-- 左上角返回首页的三角形标记 -->
+     <div class="triangle">
+        <a href="1.html">返回首页</a>
+    </div>
+    <header>
+        <h1>留言板</h1>
+        <nav>
+            <ul>
+                <li><a href="introduce.html">个人简介</a></li>
+                <li><a href="hobby.html">爱好</a></li>
+                <li><a href="share.html">分享</a></li>
+                <li><a href="message.html">留言</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="messages">
+        <h2>留言</h2>
+        <form id="messageForm" action="postMessage.jsp" method="post">
+            <label for="message">留言：</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <button type="submit">提交</button>
+        </form>
+        <div id="messageList">
+            <!-- 这里将动态生成留言内容 -->
+        </div>
+    </section>
+
+    <footer>
+        <h2>友情链接</h2>
+        <ul>
+            <li><a href="#">友情链接1</a></li>
+            <li><a href="#">友情链接2</a></li>
+        </ul>
+        <p>版权所有 &copy; 2024 LM</p>
+    </footer>
+
+    <script src="../js/scripts.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
