@@ -1,0 +1,41 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   audio/ruyuan.mp3
+#	new file:   css/styles.css
+#	new file:   html/1.html
+#	new file:   html/hobby.html
+#	new file:   html/introduce.html
+#	new file:   html/link.html
+#	new file:   html/message.html
+#	new file:   html/share.html
+#	new file:   image/label1.png
+#	new file:   image/label2.png
+#	new file:   image/label3.png
+#	new file:   image/person.jpg
+#	new file:   image/person1.jpg
+#	new file:   image/person2.jpg
+#	new file:   image/read1.jpg
+#	new file:   image/read2.jpg
+#	new file:   image/read3.jpg
+#	new file:   image/read4.jpg
+#	new file:   image/read5.jpg
+#	new file:   image/read6.jpg
+#	new file:   image/see1.jpg
+#	new file:   image/see2.jpg
+#	new file:   image/share1.jpg
+#	new file:   image/share2.jpg
+#	new file:   js/scripts.js
+#
+# Untracked files:
+#	audio/music.mp3
+#	image/date.jpg
+#	js/main.js
+#	workspace.code-workspace
+#
